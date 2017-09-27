@@ -1,0 +1,9 @@
+name: RandomUtils
+version: 1.0
+main: net.suggesting.randomutils.RandomUtils
+description: Completely random utils.
+author: Suggesting
+
+commands:
+  fly:
+  heal:
