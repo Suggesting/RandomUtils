@@ -38,7 +38,7 @@ public abstract class CommandBase implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
-        if (command.getName().equalsIgnoreCase(""))
+        if (command.getName().equalsIgnoreCase(getCommand()))
             run(commandSender, strings);
         return true;
     }
